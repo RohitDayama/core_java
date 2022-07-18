@@ -1,0 +1,19 @@
+import java.util.Scanner
+class power
+{
+	public static void main(String[] args)
+	{
+		Scanner.sc=new Scanner(System.in);
+		System.out.println("enter number");
+		int num=sc.nextInt();//  2
+		System.out.println("enter power");
+		int pow=sc.nextInt();  //4
+		int res=1;
+		while (pow>0)  //0>0...f
+		{
+			res=res*num; //8*2=16
+			pow--; //4.3.2.1.0
+	}	
+	System.out.println("Result " +res);
+	}
+}

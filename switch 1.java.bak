@@ -1,0 +1,26 @@
+class switch
+{
+public static void main(string [] args)
+{
+String int ="4";
+Switch (int)
+{
+Case "1":System.out.println("Monday");
+break;
+Case "2":System.out.println("Tuesday");
+break;
+Case "3":System.out.println("Wednesday");
+break;
+Case "4":System.out.println("Thursday");
+break;
+Case "5":System.out.pritnln("Friday");
+break;
+Case "6":System.out.println("Saturday");
+break;
+Case "7":System.out.println("Sunday");
+break;
+default:System.out.println("entered wrong input");
+break;
+}
+}
+}

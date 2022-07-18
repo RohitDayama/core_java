@@ -1,0 +1,21 @@
+class array
+{
+public static void main(String[]args)
+{
+int a[]={1,4,7,2,3,4};
+int sum=0;
+int size=a.length;
+for(i=0;i<a.length;i++)
+{
+	int num=a[i];
+	int pw=size;
+	int res=1;
+	while(pw>0)
+	{
+		res=res*num;
+		pw--;
+	}
+System.out.println(res);
+}
+}
+}

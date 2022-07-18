@@ -1,0 +1,16 @@
+class loop
+{
+public static void main(String [] args)
+{
+int i=20;
+while (i<=70 && i%2==0)
+{
+	
+System.out.println(i);
+	
+
+
+}
+i++;
+}
+}

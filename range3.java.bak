@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class range
+{
+public static void main(String [] args)
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the starting value");
+int start= sc.nextInt ();
+System.out.println("enter the ending value");
+int end= sc.nextInt ();
+int sum=0;
+while (start<=end)
+	int dig=start%3;
+
+
+{
+	if(sum%2==0)
+	{
+		sum=sum+dig;
+	}
+	else
+	{
+	}
+	
+	start++;
+}
+System.out.println("the count is even" +sum);
+System.out.println("the count is odd" +sum);
+}
+}

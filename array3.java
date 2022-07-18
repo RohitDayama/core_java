@@ -1,0 +1,22 @@
+class array
+{
+public static void main(String[]rags)
+{
+int  a [] ={10,20,30,40,59};
+int sum=0;
+int prod=01;
+for(int i=0; i<a.length; i++)
+{
+	if (a[i]%2==0)
+	{
+		sum=sum+a[i];
+	}
+    else
+    {
+     prod=prod*a[i];	
+    }
+}
+System.out.println("sum of even number " +sum);
+System.out.println("prod of even number " +prod);
+}
+}
